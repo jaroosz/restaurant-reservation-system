@@ -14,4 +14,8 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RestaurantReservationSystem.Application\RestaurantReservationSystem.Application.csproj" />
+  </ItemGroup>
+
 </Project>
