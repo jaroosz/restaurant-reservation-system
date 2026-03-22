@@ -10,4 +10,5 @@ public class Staff
     public required string DisplayName { get; set; }
     public required string RoleTitle { get; set; }
     public ICollection<StaffPermission> StaffPermissions { get; set; } = new List<StaffPermission>();
+    public ICollection<RefreshToken> RefreshTokens { get; set; } = new List<RefreshToken>();
 }

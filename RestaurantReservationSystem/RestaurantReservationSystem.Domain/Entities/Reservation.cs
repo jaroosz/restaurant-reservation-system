@@ -9,8 +9,8 @@ public class Reservation
     public Restaurant Restaurant { get; set; } = null!;
     public Guid RestaurantTableId { get; set; }
     public RestaurantTable RestaurantTable { get; set; } = null!;
-    public Guid GuestId { get; set; }
-    public Guest Guest { get; set; } = null!;
+    public Guid? GuestId { get; set; }
+    public Guest? Guest { get; set; }
     public DateTime ReservationDate { get; set; }
     public int GuestCount { get; set; }
     public DateTime? SeatedAt { get; set; }
